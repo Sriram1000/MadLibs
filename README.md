@@ -3,30 +3,29 @@
 - link to VS Code file
 
 #
-The Great School Escape
+The Haunted Costume Catastrophe
+1. Adjective: (e.g., slimy)
 
-1. Plural Noun: (e.g., laptops)
+2. Verb (ending in -ing): (e.g., screaming)
 
-2. Adjective: (e.g., awkward)
+3. A Type of Candy (Plural): (e.g., Gummies)
 
-3. Verb (ending in -ing): (e.g., debating)
+4. A Body Part: (e.g., elbow)
 
-4. A Teacher's Name: (e.g., Mr. Henderson)
+5. Adverb: (e.g., angrily)
 
-5. Adverb: (e.g., secretly)
+6. Noun (Plural): (e.g., pigeons)
 
-6. Exclamation: (e.g., Yikes!)
+7. Exclamation: (e.g., Holy Cow!)
 
-7. Noun (Plural): (e.g., socks)
+8. Past Tense Verb: (e.g., sneezed)
 
-8. Past Tense Verb: (e.g., shouted)
+9. A Fictional Character: (e.g., SpongeBob SquarePants)
 
-9. Place/Location: (e.g., the mall)
+10. Adjective: (e.g., magical)
 
-10. Adjective: (e.g., epic)
+My friends and I were dressed in our (1) _______________ costumes, ready for a serious night of trick-or-treating. We were already (2) _______________ down the street, our bags overflowing with (3) _______________, when we saw the neighborhood's most legendary haunted house.
 
-The most (2) _______________ thing happened during detention with (4) _______________. We were all supposed to be quietly (3) _______________ about our poor life choices, but I was (5) _______________ trying to hide my forbidden bag of (1) _______________ under the desk.
+Daredevil Dave bet us a whole bag of (3) _______________ that we wouldn't stick our (4) _______________ into the creepy mailbox. I bravely walked up and reached inside. Suddenly, something grabbed my wrist! I yanked my arm back (5) _______________ and tripped over a bush filled with fake plastic (6) _______________.
 
-Suddenly, a loud noise like a herd of angry (7) _______________ echoed from the hallway. (6) _______________! The teacher immediately (8) _______________ that we all had to evacuate to (9) _______________.
-
-We ran out the back door, and that’s when we realized it wasn't an emergency at all—it was just the marching band practicing. Still, getting out of detention and making it all the way to the (9) _______________ felt like a truly (10) _______________ school escape.
+(7) _______________! The noise woke up the guy inside, who immediately (8) _______________ and came outside. Turns out, he was dressed as (9) _______________ and just wanted to hand out more candy. We left with our candy bags feeling extra (10) _______________ about our successful, if slightly embarrassing, Halloween night.
