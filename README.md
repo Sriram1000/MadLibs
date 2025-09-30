@@ -4,25 +4,26 @@
 
 #
 The Great School Escape
-Plural Noun: (e.g., laptops)
 
-Adjective: (e.g., awkward)
+1. Plural Noun: (e.g., laptops)
 
-Verb (ending in -ing): (e.g., debating)
+2. Adjective: (e.g., awkward)
 
-A Teacher's Name: (e.g., Mr. Henderson)
+3. Verb (ending in -ing): (e.g., debating)
 
-Adverb: (e.g., secretly)
+4. A Teacher's Name: (e.g., Mr. Henderson)
 
-Exclamation: (e.g., Yikes!)
+5. Adverb: (e.g., secretly)
 
-Noun (Plural): (e.g., socks)
+6. Exclamation: (e.g., Yikes!)
 
-Past Tense Verb: (e.g., shouted)
+7. Noun (Plural): (e.g., socks)
 
-Place/Location: (e.g., the mall)
+8. Past Tense Verb: (e.g., shouted)
 
-Adjective: (e.g., epic)
+9. Place/Location: (e.g., the mall)
+
+10. Adjective: (e.g., epic)
 
 The most (2) _______________ thing happened during detention with (4) _______________. We were all supposed to be quietly (3) _______________ about our poor life choices, but I was (5) _______________ trying to hide my forbidden bag of (1) _______________ under the desk.
 
