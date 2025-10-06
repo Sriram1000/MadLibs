@@ -84,9 +84,9 @@ public class madLibs
         Scanner storyTime = new Scanner(System.in); //create an object and assign it to an instance
 
         //initiate variables
-        String n = "noun";
-        String v = "verb";
-        String a = "adjective";
+        String n = "<noun>";
+        String v = "<verb>";
+        String a = "<adjective>";
         String story = storyTemplate();
 
         int nouns = totalNouns(story);
@@ -95,19 +95,19 @@ public class madLibs
         //while statement that continues to ask the user to input something until there are no more verbs, adjectives, and nouns
         while (story.contains(n)) 
         {
-            System.out.println("Enter a " + n + " (e.g., tree): ");
+            System.out.println("Enter a noun(e.g., tree): ");
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(n, userInput);
         }
         while (story.contains(v)) 
         {
-            System.out.println("Enter a " + v + " (e.g., leave):");
+            System.out.println("Enter a verb(e.g., leave):");
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(v, userInput);
         }
         while (story.contains(a))
         {
-            System.out.println("Enter a " + a + " (e.g., awesome):");
+            System.out.println("Enter an adjective(e.g., awesome):");
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(a, userInput);
         }
