@@ -23,19 +23,22 @@
 
 */
 
+// import scanner class
 import java.util.Scanner;
 
+
+//create main class
 public class madLibs
 {  
 
-    public static int totalNouns(String story)
+    public static int totalNouns(String story)   //create method to count number of nouns
     {
         int numberofNouns = 0;
-        String[] words = story.split(" ");
+        String[] words = story.split(" "); //splits all strings 
 
-        for (String word : words)
+        for (String word : words)  //for statement that finds each noun
         {
-            if (word.equals("noun"))
+            if (word.equals("<noun>"))
             {
                 numberofNouns += 1;
             }
@@ -44,14 +47,14 @@ public class madLibs
 
         return numberofNouns;
     }
-    public static int totalVerbs(String story)
+    public static int totalVerbs(String story) //create method to count number of verbs
     {
         int numberofVerbs = 0;
-        String[] words = story.split(" ");
+        String[] words = story.split(" "); //splits all strings 
 
-        for (String word : words)
+        for (String word : words) // for statement that finds each verb
         {
-            if (word.equals("verb"))
+            if (word.equals("<verb>"))
             {
                 numberofVerbs += 1;
             }
@@ -60,14 +63,14 @@ public class madLibs
 
         return numberofVerbs;
     }
-    public static int totalAdjectives(String story)
+    public static int totalAdjectives(String story) //create method to count number of adjectives
     {
         int numberofAdjectives = 0;
-        String[] words = story.split(" ");
+        String[] words = story.split(" "); //splits all strings
 
-        for (String word : words)
+        for (String word : words) // for statement that finds each adjective
         {
-            if (word.equals("adjective"))
+            if (word.equals("<adjective>"))
             {
                 numberofAdjectives += 1;
             }
@@ -76,10 +79,11 @@ public class madLibs
 
         return numberofAdjectives;
     }
-    public static void main(String[] args) 
+    public static void main(String[] args) //main method
     {
-        Scanner storyTime = new Scanner(System.in);
+        Scanner storyTime = new Scanner(System.in); //create an object and assign it to an instance
 
+        //initiate variables
         String n = "noun";
         String v = "verb";
         String a = "adjective";
@@ -88,7 +92,7 @@ public class madLibs
         int nouns = totalNouns(story);
         int verbs = totalVerbs(story);
         int adjectives = totalAdjectives(story);
-
+        //while statement that continues to ask the user to input something until there are no more verbs, adjectives, and nouns
         while (story.contains(n)) 
         {
             System.out.println("Enter a " + n + " (e.g., tree): ");
@@ -108,17 +112,19 @@ public class madLibs
             story = story.replaceFirst(a, userInput);
         }
         
+        // print outputs
         System.out.println("-----Your completed story-----");
         System.out.println(story);
         System.out.println("------------------------------");
-        System.out.println("Total amount of nouns used: " + nouns + "\n Total amount of verbs used: " + verbs + "\n Total amount of adjectives used: " + adjectives);
-
+        System.out.println("Total amount of nouns used: " + nouns + "\nTotal amount of verbs used: " + verbs + "\nTotal amount of adjectives used: " + adjectives);
+        System.out.println("------------------------------");
         storyTime.close();
     }
 
-    public static String storyTemplate() {
-        return "Last night, my friends and I decided to verb to the old noun at the end of the street. It was known for its adjective decorations and adjective noises. As we approached, a giant noun suddenly verb from the roof! "
-             + "We all verb in fear, clutching our bags of noun. The door creaked open with a adjective sound, and inside we saw a adjective noun holding a glowing noun. It began to verb toward us. "
-             + "I bravely verb forward and offered it a noun. To our surprise, it verb and handed us a adjective prize. We verb all the way home, laughing about the adjective adventure.";
+    public static String storyTemplate() //string method of the story template
+    {
+        return "Last night, my friends and I decided to <verb> to the old <noun> at the end of the street. It was known for its <adjective> decorations and <adjective> noises. As we approached, a giant <noun> suddenly <verb> from the roof! "
+             + "We all <verb> in fear, clutching our bags of <noun>. The door creaked open with a <adjective> sound, and inside we saw a <adjective> <noun> holding a glowing <noun>. It began to <verb> toward us. "
+             + "I bravely <verb> forward and offered it a <noun>. To our surprise, it <verb> and handed us a <adjective> prize. We <verb> all the way home, laughing about the <adjective> adventure.";
     }
 }
