@@ -38,6 +38,7 @@ public class madLibs
 
         for (String word : words)  //for statement that finds each noun
         {
+                word = word.replaceAll("[^a-z A-Z <>]", ""); // remove punctuation
             if (word.equals("<noun>"))
             {
                 numberofNouns += 1;
@@ -54,6 +55,7 @@ public class madLibs
 
         for (String word : words) // for statement that finds each verb
         {
+            word = word.replaceAll("[^a-z A-Z <>]", ""); // remove punctuation
             if (word.equals("<verb>"))
             {
                 numberofVerbs += 1;
@@ -70,6 +72,7 @@ public class madLibs
 
         for (String word : words) // for statement that finds each adjective
         {
+            word = word.replaceAll("[^a-z A-Z <>]", ""); // remove punctuation
             if (word.equals("<adjective>"))
             {
                 numberofAdjectives += 1;
