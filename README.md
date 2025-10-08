@@ -10,6 +10,11 @@
      * Asks the user to input nouns, verbs, and adjectives
      * Parses strings
 * -- Extra add-ons we created --
-     * Shows the number of nouns, verbs, and adjectives used in the entire story
+     * Shows the number of nouns, verbs, and adjectives used in the entire story by creating different methods
      * Code has while loops, for loops, and if statements
-     * 
+* -- Application to real life --
+     * Can be used as a fun activity to do when bored
+     * Helps children learn different types of words
+     * Enhances reading skills
+     * Can be used as a start-up or template for books
+  
