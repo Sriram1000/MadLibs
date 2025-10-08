@@ -2,6 +2,20 @@
 * -- Overview --
      * For our 1.2.10 madLibs project, we've decided to base it off of the holiday Halloween to create a fun and spooky environment.
      * Our project consists of an algorithm with a file named "madLibs.java" that prompts the user to enter different nouns, verbs, and adjectives to create a fun madLibs.
+ 
+* -- Our steps to success--
+     1. Create algorithm
+     2. Start off by importing Scanner class and creating a public class and main method
+     3. Create a method solely for the story template
+     4. Initiate variables and create while loops that continue to ask user to input word types until there are no more left
+     5. Replace any word in the angle brackets with the user input.
+     6. Print out new story with user inputs
+     7. Create three new methods that count number of nouns, verbs, and adjectives used.
+     8. Print out results.
+     9. Finish algorithm
+     10. Create google slides and README.
+     11. Work on an exciting and fun presentation
+        
 * -- Coding details --
      * Consists of 5 different methods:
         * Three integer methods for counting the number of nouns, verbs, and adjectives
