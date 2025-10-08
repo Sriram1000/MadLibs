@@ -1,14 +1,15 @@
-# 
-- https://prod.liveshare.vsengsaas.visualstudio.com/join?F5E0887D1FF27CC03B98C8C3699DB55C7478
-- link to VS Code file
-
-#
-
-Spooky Halloween
-
-Last night, my friends and I decided to [verb] to the old [noun] at the end of the street. It was known for its [adjective] decorations and [adjective] noises. As we approached, a giant [noun] suddenly [verb] from the roof!
-
-We all [verb] in fear, clutching our bags of [noun]. The door creaked open with a [adjective] sound, and inside we saw a [adjective] [noun] holding a glowing [noun]. It began to [verb] toward us.
-
-I bravely [verb] forward and offered it a [noun]. To our surprise, it [verb] and handed us a [adjective] prize. We [verb] all the way home, laughing about the [adjective] adventure.
-
+# SPOOKY HALLOWEEN MADLIBS
+* -- Overview --
+     * For our 1.2.10 madLibs project, we've decided to base it off of the holiday Halloween to create a fun and spooky environment.
+     * Our project consists of an algorithm with a file named "madLibs.java" that prompts the user to enter different nouns, verbs, and adjectives to create a fun madLibs.
+* -- Coding details --
+     * Consists of 5 different methods:
+        * Three integer methods for counting the number of nouns, verbs, and adjectives
+        * One main method for user input
+        * One string method for the story template
+     * Asks the user to input nouns, verbs, and adjectives
+     * Parses strings
+* -- Extra add-ons we created --
+     * Shows the number of nouns, verbs, and adjectives used in the entire story
+     * Code has while loops, for loops, and if statements
+     * 
