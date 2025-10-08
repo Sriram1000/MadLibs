@@ -95,18 +95,33 @@ public class madLibs
         int nouns = totalNouns(story);
         int verbs = totalVerbs(story);
         int adjectives = totalAdjectives(story);
+        int verbCounter = 0;
+        int nounCounter = 0;
         //while statement that continues to ask the user to input something until there are no more verbs, adjectives, and nouns
         while (story.contains(n)) 
         {
-            System.out.println("Enter a noun(e.g., tree): ");
+            nounCounter += 1;
+            if (nounCounter == 2)
+            {
+                System.out.print("Enter a plural noun(e.g., laptops):");
+            } else {
+                System.out.print("Enter a noun(e.g., laptop)");
+            }
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(n, userInput);
         }
         while (story.contains(v)) 
         {
-            System.out.println("Enter a verb(e.g., leave):");
+            verbCounter += 1;
+            if (verbCounter == 2 || verbCounter == 3 || verbCounter == 5)
+            {
+                System.out.print("Enter a past-tense verb(e.g., left):");
+            } else {
+                System.out.print("Enter a present-tense verb(e.g., leaves)");
+            }
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(v, userInput);
+         
         }
         while (story.contains(a))
         {
