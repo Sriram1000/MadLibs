@@ -31,4 +31,7 @@
      * Helps children learn different types of words
      * Enhances reading skills
      * Can be used as a start-up or template for books
+* -- Screenshot of output --
+     * <img width="1602" height="137" alt="image" src="https://github.com/user-attachments/assets/22f4e97d-c5d5-402c-8112-fb6b740e0442" />
+
   
