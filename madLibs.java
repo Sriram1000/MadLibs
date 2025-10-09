@@ -1,5 +1,3 @@
-
-
 /* Requirements in code:
 
 - Accept multiple user inputs for different word types (nouns, verbs, adjectives)
@@ -117,7 +115,7 @@ public class madLibs
             {
                 System.out.print("Enter a past-tense verb(e.g., left):");
             } else {
-                System.out.print("Enter a present-tense verb(e.g., leaves)");
+                System.out.print("Enter a verb(e.g., leave)");
             }
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(v, userInput);
