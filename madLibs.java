@@ -1,29 +1,6 @@
-/* Requirements in code:
-
-- Accept multiple user inputs for different word types (nouns, verbs, adjectives)
-
-- Insert user-provided words into a predefined story template
-
-- Handle at least 5-7 word substitutions
-
-- Implement at least two functions: (optional)
-        Input collection function
-        Story generation function
-
-- Include comments explaining code logic [4]
-
-- parse noun, verb, adjective
-    - n for noun
-    - v for verb
-    - a for adjective
-
-
-
-*/
 
 // import scanner class
 import java.util.Scanner;
-
 
 //create main class
 public class madLibs
@@ -99,7 +76,7 @@ public class madLibs
         while (story.contains(n)) 
         {
             nounCounter += 1;
-            if (nounCounter == 2)
+            if (nounCounter == 3)
             {
                 System.out.print("Enter a plural noun(e.g., laptops):");
             } else {
@@ -110,13 +87,7 @@ public class madLibs
         }
         while (story.contains(v)) 
         {
-            verbCounter += 1;
-            if (verbCounter == 2 || verbCounter == 3 || verbCounter == 5)
-            {
-                System.out.print("Enter a past-tense verb(e.g., left):");
-            } else {
-                System.out.print("Enter a verb(e.g., leave)");
-            }
+            System.out.println("Enter a past-tense verb(e.g., left):");
             String userInput = storyTime.nextLine();
             story = story.replaceFirst(v, userInput);
          
@@ -139,8 +110,11 @@ public class madLibs
 
     public static String storyTemplate() //string method of the story template
     {
-        return "Last night, my friends and I decided to <verb> to the old house at the end of the street. It was known for its absurd decorations and <adjective> noises. As we approached, a giant <noun> suddenly <verb> from the roof! "
-             + "We all <verb> in fear, clutching our bags of <noun>. The door creaked open with an eerie sound, and inside we saw a <adjective> chicken holding a glowing <noun>. It began to <verb> toward us. "
-             + "I bravely stepped forward and offered it a <noun>. To our surprise, it <verb> and handed us a <adjective> prize. We walked back all the way home, laughing about the <adjective> adventure.";
+        return "This year, my family and I <verb> to celebrate Dia de los Muertos. "
+            +  "We built a <adjective> <noun> in our home and decorated it with candles, marigold, and photos. "
+            +  "Together, we <verb> sugar skulls and <verb> them on the altar beside a <noun> full of favorite foods. "
+            +  "The smell of incense filled the <noun> as we <verb> to remember our loved ones. "
+            +  "At night, we <verb> through the cemetery holding <adjective> lanterns, feeling the <adjective> connnection between the living and the <noun> who came before us. "
+            +  "It's truly a <adjective> celebration of life and memory.";
     }
 }
