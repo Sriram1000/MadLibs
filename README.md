@@ -1,40 +1,45 @@
-# SPOOKY HALLOWEEN MADLIBS
-
-* Link to slides: https://docs.google.com/presentation/d/1ScppPr4QLXNvM07XhzHwqIvawCiu2sbWJh-v9ESjajU/edit?usp=sharing
-
-* -- Overview --
-     * For our 1.2.10 madLibs project, we've decided to base it off of the holiday Halloween to create a fun and spooky environment.
-     * Our project consists of an algorithm with a file named "madLibs.java" that prompts the user to enter different nouns, verbs, and adjectives to create a fun madLibs.
- 
-* -- Our steps to success--
-     1. Create algorithm
-     2. Start off by importing Scanner class and creating a public class and main method
-     3. Create a method solely for the story template
-     4. Initiate variables and create while loops that continue to ask user to input word types until there are no more left
-     5. Replace any word in the angle brackets with the user input.
-     6. Print out new story with user inputs
-     7. Create three new methods that count number of nouns, verbs, and adjectives used.
-     8. Print out results.
-     9. Finish algorithm
-     10. Create google slides and README.
-     11. Work on an exciting and fun presentation
-        
-* -- Coding details --
-     * Consists of 5 different methods:
-        * Three integer methods for counting the number of nouns, verbs, and adjectives
-        * One main method for user input
-        * One string method for the story template
-     * Asks the user to input nouns, verbs, and adjectives
-     * Parses strings
-* -- Extra add-ons we created --
-     * Shows the number of nouns, verbs, and adjectives used in the entire story by creating different methods
-     * Code has while loops, for loops, and if statements
-* -- Application to real life --
-     * Can be used as a fun activity to do when bored
-     * Helps children learn different types of words
-     * Enhances reading skills
-     * Can be used as a start-up or template for books
-* -- Screenshot of output --
-     * <img width="1602" height="137" alt="image" src="https://github.com/user-attachments/assets/22f4e97d-c5d5-402c-8112-fb6b740e0442" />
-
+# 1.2.10 Mad Libs 
   
+## Overview
+
+This project is a **Mad Libs generator** written in Java. Basically, it prompts the user to input various words (*nouns, verbs, adjectives*) and inserts them into a predefined story template. The completed story is then displayed along with counts for each type of placeholder used.
+
+### Key Concepts
+- String manipulation (`split()`, `replaceAll()`, `replaceFirst()`)
+- Loops and conditionals
+- Modular programming using methods
+- User input via the `Scanner` class
+- Counting placeholder occurrences
+
+## Features
+
+1) Accepts user input for **nouns**, **verbs**, and **adjectives**  
+2) Substitutes user input into a **story template**  
+3) Prompts dynamically (e.g., plural vs. singular noun)  
+4) Displays a **completed story**  
+5) Counts total nouns, verbs, and adjectives used  
+
+## Program Structure
+
+### **Class:** `madLibs`
+Main class that drives the program 
+
+### **Methods**
+| Method | Description |
+|--------|--------------|
+| `totalNouns(String story)` | Counts the number of `<noun>` placeholders |
+| `totalVerbs(String story)` | Counts the number of `<verb>` placeholders |
+| `totalAdjectives(String story)` | Counts the number of `<adjective>` placeholders |
+| `storyTemplate()` | Returns the story string with placeholders |
+| `main(String[] args)` | Handles the basics (user input and replacement logic) |
+
+## Logic Flow
+
+1. First, we have to **load the templates**, where the `storyTemplate()` method defines a story containing placeholder tags (`<noun>`, `<verb>`, `<adjective>`)
+2. Then, we have to **count the placeholders**, where the program counts how many of each type appear using the counting methods 
+3. Next, we have to **prompt for the user input**, where we use a `Scanner` to ask for user words based on placeholder type
+4. Consequently, we have to **replace the placeholders**, where we replaces each tag using `replaceFirst()` one at a time  
+5. Finally, we **display the results**, where it simply prints the completed story and placeholder counts
+
+## 💬 Example Output
+
