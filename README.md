@@ -4,7 +4,7 @@
 
 This project is a **Mad Libs generator** written in Java. Basically, it prompts the user to input various words (*nouns, verbs, adjectives*) and inserts them into a predefined story template. The completed story is then displayed along with counts for each type of placeholder used.
 
-### Key Concepts
+## Key Concepts
 - String manipulation (`split()`, `replaceAll()`, `replaceFirst()`)
 - Loops and conditionals
 - Modular programming using methods
@@ -41,5 +41,5 @@ Main class that drives the program
 4. Consequently, we have to **replace the placeholders**, where we replaces each tag using `replaceFirst()` one at a time  
 5. Finally, we **display the results**, where it simply prints the completed story and placeholder counts
 
-## 💬 Example Output
+## Example Output
 
