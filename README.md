@@ -1,4 +1,7 @@
 # SPOOKY HALLOWEEN MADLIBS
+
+* Link to slides: https://docs.google.com/presentation/d/1ScppPr4QLXNvM07XhzHwqIvawCiu2sbWJh-v9ESjajU/edit?usp=sharing
+
 * -- Overview --
      * For our 1.2.10 madLibs project, we've decided to base it off of the holiday Halloween to create a fun and spooky environment.
      * Our project consists of an algorithm with a file named "madLibs.java" that prompts the user to enter different nouns, verbs, and adjectives to create a fun madLibs.
