@@ -1,12 +1,12 @@
 
-// import scanner class
-import java.util.Scanner;
 
-//create main class
-public class madLibs
+import java.util.Scanner; // import Scanner class
+
+
+public class madLibs // create public class
 {  
-
-    public static int totalNouns(String story)   //create method to count number of nouns
+    // create methods to count number of nouns, verbs, adjectives
+    public static int totalNouns(String story)  
     {
         int numberofNouns = 0;
         String[] words = story.split(" "); //splits all strings 
@@ -23,14 +23,14 @@ public class madLibs
 
         return numberofNouns;
     }
-    public static int totalVerbs(String story) //create method to count number of verbs
+    public static int totalVerbs(String story) 
     {
         int numberofVerbs = 0;
-        String[] words = story.split(" "); //splits all strings 
+        String[] words = story.split(" "); 
 
-        for (String word : words) // for statement that finds each verb
+        for (String word : words) 
         {
-            word = word.replaceAll("[^a-z A-Z <>]", ""); // remove punctuation
+            word = word.replaceAll("[^a-z A-Z <>]", ""); 
             if (word.equals("<verb>"))
             {
                 numberofVerbs += 1;
@@ -40,14 +40,14 @@ public class madLibs
 
         return numberofVerbs;
     }
-    public static int totalAdjectives(String story) //create method to count number of adjectives
+    public static int totalAdjectives(String story) 
     {
         int numberofAdjectives = 0;
-        String[] words = story.split(" "); //splits all strings
+        String[] words = story.split(" "); 
 
-        for (String word : words) // for statement that finds each adjective
+        for (String word : words) 
         {
-            word = word.replaceAll("[^a-z A-Z <>]", ""); // remove punctuation
+            word = word.replaceAll("[^a-z A-Z <>]", ""); 
             if (word.equals("<adjective>"))
             {
                 numberofAdjectives += 1;
@@ -70,13 +70,12 @@ public class madLibs
         int nouns = totalNouns(story);
         int verbs = totalVerbs(story);
         int adjectives = totalAdjectives(story);
-        int verbCounter = 0;
         int nounCounter = 0;
-        //while statement that continues to ask the user to input something until there are no more verbs, adjectives, and nouns
+        //continues to ask the user to input something until there are no more verbs, adjectives, and nouns
         while (story.contains(n)) 
         {
             nounCounter += 1;
-            if (nounCounter == 3)
+            if (nounCounter == 3) //fixes grammar mistakes in the madLib story
             {
                 System.out.print("Enter a plural noun(e.g., laptops):");
             } else {
