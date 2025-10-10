@@ -62,10 +62,10 @@ public class madLibs // create public class
         Scanner storyTime = new Scanner(System.in); //create an object and assign it to an instance
 
         //initiate variables
+        String story = storyTemplate();
         String n = "<noun>";
         String v = "<verb>";
         String a = "<adjective>";
-        String story = storyTemplate();
 
         int nouns = totalNouns(story);
         int verbs = totalVerbs(story);
@@ -82,20 +82,39 @@ public class madLibs // create public class
                 System.out.print("Enter a noun(e.g., laptop)");
             }
             String userInput = storyTime.nextLine();
-            story = story.replaceFirst(n, userInput);
+            int index = story.indexOf(n);
+            if (index != -1)
+            {
+                story = story.substring(0,index)
+                      + userInput
+                      + story.substring(index + n.length());
+            }
+
         }
         while (story.contains(v)) 
         {
             System.out.println("Enter a past-tense verb(e.g., left):");
             String userInput = storyTime.nextLine();
-            story = story.replaceFirst(v, userInput);
+            int index = story.indexOf(v);
+            if (index != -1)
+            {
+                story = story.substring(0,index)
+                      + userInput
+                      + story.substring(index + v.length());
+            }
          
         }
         while (story.contains(a))
         {
-            System.out.println("Enter an adjective(e.g., awesome):");
+            System.out.println("Enter an adjective(e.g., left):");
             String userInput = storyTime.nextLine();
-            story = story.replaceFirst(a, userInput);
+            int index = story.indexOf(a);
+            if (index != -1)
+            {
+                story = story.substring(0,index)
+                      + userInput
+                      + story.substring(index + a.length());
+            }
         }
         
         // print outputs
