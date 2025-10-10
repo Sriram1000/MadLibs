@@ -43,3 +43,23 @@ Main class that drives the program
 
 ## Example Output
 
+
+# Execution 
+
+## Timeline: 
+
+```mermaid
+timeline
+    title Mad Libs Project Development
+    section Planning
+        Brainstorm Story Ideas : Week 1
+        Define Placeholders : Week 1
+    section Development
+        Code Main Logic : Week 2
+        Add Counting Methods : Week 2
+    section Testing
+        Debug and Test Inputs : Week 3
+    section Documentation
+        Write README and Upload to GitHub : Week 4
+
+
