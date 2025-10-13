@@ -125,6 +125,13 @@ public class madLibs // create public class
         System.out.println("------------------------------");
         storyTime.close();
     }
+//Story to be implemented:
+//This year, my family and I [insert verb] to celebrate Dia de los Muertos.
+//We built a [insert adjective] [insert noun] in our home and decorated it with candles, marigold, and photos.
+//Together, we [insert verb] sugar skulls and [insert verb] them on the altar beside a [insert noun] full of favorite foods.
+//The smell of incense filled the [insert noun] as we [insert verb] to remember our loved ones.
+//At night, we [insert verb] through the cemetery holding [insert adjective] lanterns, feeling the [insert adjective] connection between the living and the [insert noun] who came before us.
+//It's truly a [insert adjective] celebration of life and memory.
 
     public static String storyTemplate() //string method of the story template
     {
@@ -132,7 +139,7 @@ public class madLibs // create public class
             +  "We built a <adjective> <noun> in our home and decorated it with candles, marigold, and photos. "
             +  "Together, we <verb> sugar skulls and <verb> them on the altar beside a <noun> full of favorite foods. "
             +  "The smell of incense filled the <noun> as we <verb> to remember our loved ones. "
-            +  "At night, we <verb> through the cemetery holding <adjective> lanterns, feeling the <adjective> connnection between the living and the <noun> who came before us. "
+            +  "At night, we <verb> through the cemetery holding <adjective> lanterns, feeling the <adjective> connection between the living and the <noun> who came before us. "
             +  "It's truly a <adjective> celebration of life and memory.";
     }
 }
